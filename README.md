@@ -26,29 +26,7 @@ The goal of this project is to ensure:
 
 ## 🛠️ Tech Stack
 
-- Java  
-- Selenium (if integrated)  
-- REST Assured  
-- TestNG / JUnit  
-- Maven  
 - Postman (for initial testing)  
-
----
-
-## 📂 Project Structure
-
-```
-📁 GitHub-API-Testing
- ┣ 📂 src
- ┃ ┣ 📂 test
- ┃ ┃ ┗ 📜 TestCases.java
- ┃ ┣ 📂 main
- ┃ ┃ ┗ 📜 Utilities.java
- ┣ 📂 test-data
- ┃ ┗ 📜 testData.xlsx / csv
- ┣ 📜 pom.xml
- ┣ 📜 README.md
-```
 
 ---
 
@@ -75,13 +53,6 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 
-3. Run tests using Maven:
-```
-mvn clean test
-```
-
----
-
 ## 📊 Sample API Request
 
 ```
@@ -102,17 +73,6 @@ Status Code: 200
 Response Time: < 2s
 Validation: PASSED ✅
 ```
-
----
-
-## 📈 Future Enhancements
-
-- 🔄 CI/CD integration (GitHub Actions)
-- 📊 Reporting (Extent Reports / Allure)
-- 🔐 Token-based secure authentication handling
-- 🧪 Data-driven testing improvements
-
----
 
 ## 🤝 Contribution
 
